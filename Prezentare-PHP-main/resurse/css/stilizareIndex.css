@@ -1,0 +1,125 @@
+#ht
+{
+    background-image:url("../imagini/retro.jpg");
+}
+
+#se1
+{
+    background-color: blueviolet;
+}
+
+#se2
+{
+    background-color: blueviolet;
+}
+
+#se3
+{
+    background-color: blueviolet;
+}
+
+#se4
+{
+    background-color: blueviolet;
+}
+
+#se5
+{
+    background-color: blueviolet;
+}
+
+#se6
+{
+    background-image:url("../imagini/retropurpleglasses.jpg");
+}
+
+#textse6
+{
+    background-color: blueviolet;
+}
+
+#butonPPREZ
+{
+    font-size: 20px;
+    color:red;
+}
+
+#butonPPREZ:hover
+{
+    font-size: 30px;
+    animation: rainbow-text 1s ease-in-out infinite;
+    
+}
+
+
+@keyframes rainbow-text {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes animatie_buton 
+{
+ 0%
+ {
+    transform: rotate(0deg);
+ }   
+ 20%
+ {
+    transform: rotate(72deg);
+ }   
+ 40%
+ {
+    transform: rotate(144deg);
+ }   
+ 60%
+ {
+    transform: rotate(216deg);
+ } 
+ 80%
+ {
+    transform: rotate(288deg);
+ } 
+ 100%
+ {
+    transform: rotate(360deg);
+ }
+   
+   
+ 
+}
+
+
+#sa
+{
+float: right;
+font-size: 30px;
+animation: rainbow-text 1s ease-in-out infinite;
+}
+
+#si
+{
+float: right;
+font-size: 30px;
+animation: rainbow-text 1s ease-in-out infinite;
+
+}
+
+
+#sa:hover
+{
+    animation: animatie_buton  10s infinite;
+}
+
+#si:hover
+{
+    animation: animatie_buton  10s infinite;
+}
+
+#pagina_citate_everyone
+{
+    color:green;
+}

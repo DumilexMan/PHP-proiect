@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina pentru incarcat meme-uri</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./resurse/CSS/stilizareIndex.css" type="text/css">
+  </head>
+  <body>
+        <h1>Scrie linkul meme-ului:</h1>
+          <div class="panel-body">
+            <form action="incarca_meme.php" method="post">
+              <div class="form-group">
+                <label for="textarea">Link meme</label>
+                <textarea 
+                name="Link_meme"
+                rows="30"
+                cols="50"
+                class="form-control"
+                id="Link"></textarea>
+              </div>
+              <input type="submit" class="btn meme" />
+            </form>
+          </div>
+  </body>
+</html>
